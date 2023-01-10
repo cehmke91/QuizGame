@@ -105,6 +105,8 @@ class QuizMaster
     {
         // get and score the answer from the user.
         Console.WriteLine(question.ToString());
+
+        //TODO: null means skip this question
         return question.CheckAnswer(GetAnswerFromUser(question));
     }
 
